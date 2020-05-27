@@ -1,0 +1,62 @@
+.top-box {
+  background: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+.top-box .price {
+  font-size: 2.5rem;
+}
+
+.top-box-a {
+  grid-area: top-box-a;
+  font-size: 2em;
+}
+
+.top-box-b {
+  grid-area: top-box-b;
+  font-size: 2em;
+
+}
+
+/* boxes */
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  
+  .box {
+    .box-icon {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.5em;
+      padding: 10px;
+    }
+    .box-links {
+      padding-top: 30px;
+    }
+  }
+
+  a {
+    font-size: 2em;
+    padding: 30px;
+    margin-top: 10px;
+
+  }
+
+}
+
+.box {
+  background: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
+
+}

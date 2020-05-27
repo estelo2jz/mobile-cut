@@ -1,0 +1,36 @@
+html {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    font-size: 62.5%; // 1rem is 10px
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'montserrat';
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+// Variables
+
+@import './navigation.scss';
+@import './layout.scss';
+@import './variables.scss';
+
+@import './props/boxes.scss';
+@import './props/footer.scss';
+@import './props/showcase.scss';
