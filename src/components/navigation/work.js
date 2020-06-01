@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Portfolio from '../props/portfolio';
 
 const Work = () => {
   return (
-    <div>
-      <h1>Work</h1>
+    <div className="work-container">
+      <Portfolio />
     </div>
   )
 }

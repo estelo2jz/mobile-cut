@@ -4,18 +4,16 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-
+      <h4>your images goes here...</h4>
         <section className="portfolio">
-          <img src="../../static/assets/images/hairs/hair1.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair4.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair9.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair3.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair5.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair6.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair7.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair8.jpg" alt="" />
-          <img src="../../static/assets/images/hairs/hair10.jpg" alt="" />
-
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
+        <img className="" src='http://via.placeholder.com/130x130' />
         </section>
         <footer>
           <p>Mobile Cut &copy; 2020</p>

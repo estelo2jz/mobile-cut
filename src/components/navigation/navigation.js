@@ -22,8 +22,8 @@ class Navigation extends Component {
             {/* <Link className="nav-links__links" to="/shop">
               <li>Shop</li>
             </Link> */}
-            <Link className="nav-links__links" to="/contact">
-              <li>Contact</li>
+            <Link className="nav-links__links" to="/service">
+              <li>Service</li>
             </Link>
           </ul>
 

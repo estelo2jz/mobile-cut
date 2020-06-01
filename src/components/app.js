@@ -6,7 +6,7 @@ import Navigation from './navigation/navigation';
 import About from './navigation/about';
 import Work from './navigation/work';
 // import Shop from './navigation/shop';
-import Contact from './navigation/contact';
+import Service from './navigation/service';
 
 import Layout from './layout';
 
@@ -21,7 +21,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/work" component={Work} />
             {/* <Route path="/shop" component={Shop} /> */}
-            <Route path="/contact" component={Contact} />
+            <Route path="/service" component={Service} />
           </Switch>
         </div>
       </Router>
