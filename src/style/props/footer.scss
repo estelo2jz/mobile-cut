@@ -11,40 +11,40 @@
 }
 
 /* Media Queries */
-@media(max-width: 700px) {
-  .top-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-      'showcase showcase'
-      'top-box-a top-box-b';
-  }
+// @media(max-width: 700px) {
+//   .top-container {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-template-areas: 
+//       'showcase showcase'
+//       'top-box-a top-box-b';
+//   }
 
-  .showcase h1 {
-    font-size: 2.5rem;
-  }
+//   .showcase h1 {
+//     font-size: 2.5rem;
+//   }
 
-  .main-nav ul {
-    grid-template-columns: 1fr;
-  }
+//   .main-nav ul {
+//     grid-template-columns: 1fr;
+//   }
 
-  .info {
-    grid-template-columns: 2fr;
-  }
+//   .info {
+//     grid-template-columns: 2fr;
+//   }
 
-  .info .btn {
-    display: block;
-    text-align: center;
-    margin: auto;
-  }
-}
+//   .info .btn {
+//     display: block;
+//     text-align: center;
+//     margin: auto;
+//   }
+// }
 
-@media(max-width: 400px) {
-  .top-container {
-    display: grid;
-    grid-template-areas: 1fr
-      // 'showcase'
-      // 'top-box-a'
-      // 'top-box-b';
-  }
-}
+// @media(max-width: 400px) {
+//   .top-container {
+//     display: grid;
+//     grid-template-areas: 1fr
+//       // 'showcase'
+//       // 'top-box-a'
+//       // 'top-box-b';
+//   }
+// }

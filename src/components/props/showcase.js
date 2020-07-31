@@ -7,7 +7,7 @@ class Showcase extends Component {
         <section className="top-container">
           <div></div> 
           
-          <header className="showcase">
+          <div className="showcase">
             <h1>Moblie Cut</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -15,20 +15,22 @@ class Showcase extends Component {
               Maecenas sed enim ut sem viverra. Tempor orci eu lobortis elementum nibh tellus. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. 
               Cras semper auctor neque vitae tempus quam. In aliquam sem fringilla ut morbi. Augue eget arcu dictum varius duis.</p>
             <a href="/about" className="btn">Read More</a>
-          </header>
-
-          <div className="top-box top-box-a">
-            <h4>Membership</h4>
-            <p className="price">$49/mo</p>
-            <p>3 haircut per/month</p>
-            <a href="/service" className="btn">Buy Now</a>
           </div>
 
-          <div className="top-box top-box-b">
-            <h4>Pro Membership</h4>
-            <p className="price">$99/mo</p>
-            <p>9 haircut per/month</p>
-            <a href="/service" className="btn">Buy Now</a>
+          <div className="showcase-membership">
+            <div className="top-box top-box-a">
+              <h4>Membership</h4>
+              <p className="price">$49/mo</p>
+              <p>3 haircut per/month</p>
+              <a href="/service" className="btn">Buy Now</a>
+            </div>
+
+            <div className="top-box top-box-b">
+              <h4>Pro Membership</h4>
+              <p className="price">$99/mo</p>
+              <p>9 haircut per/month</p>
+              <a href="/service" className="btn">Buy Now</a>
+            </div>
           </div>
         </section>
       </div>
